@@ -1,0 +1,156 @@
+/* General Reset and Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Header Styling */
+header {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: #ddd;
+    background-color: #444;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.search-bar button {
+    padding: 5px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #666;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Highlighted Section */
+.highlight-grid {
+    display: flex;
+    gap: 10px;
+}
+
+.highlight-item {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.highlight-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.highlight-item:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: #ccc;
+}
